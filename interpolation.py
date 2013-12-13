@@ -32,7 +32,7 @@ class StepFunctionTimeSeries(TimeSeries):
                 if abs(xi-x) < abs(cx-x):
                     closest_point = (xi, yi)
         return closest_point[1]
-
+	#Meow, Meow, Meow, Meow, Meow, Meow, Woof
 
     
 class LinearTimeSeries(TimeSeries):
@@ -65,3 +65,6 @@ class LinearTimeSeries(TimeSeries):
                 w1 = y1 * (total_weight-d1) / total_weight
                 w2 = y2 * (total_weight-d2) / total_weight
                 return w1 + w2
+
+
+		#I love code
